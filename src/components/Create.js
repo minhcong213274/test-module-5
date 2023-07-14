@@ -22,9 +22,12 @@ export default function CreateTour() {
                     }
                     enableReinitialize={true}>
                 <Form>
-                    title<Field name={"title"}></Field><br/>
-                    price<Field name={"price"}></Field><br/>
-                    description<Field name={"description"}></Field><br/>
+                    title<br/>
+                    <Field name={"title"}></Field><br/>
+                    price<br/>
+                    <Field name={"price"}></Field><br/>
+                    description<br/>
+                    <Field as={"textarea"} name={"description"}></Field><br/>
                     <button>Save</button>
                 </Form>
             </Formik>
